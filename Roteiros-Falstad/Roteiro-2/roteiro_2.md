@@ -1,4 +1,4 @@
-# EXPERIMENTO 01: Polarização direta versus Polarização reversa de Diodos. 
+# EXPERIMENTO 01: Polarização direta versus Polarização reversa de Diodos.
 
 ![Figura 1 - Circuito de polarização direta.](imagens/figura1-polarizacao-direta.png)
 
