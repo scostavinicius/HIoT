@@ -2,7 +2,7 @@
 
 Implemente um circuito abaixo e responda as questões que seguem.
 
-![Figura 1 – Circuito com resistores.](imagens/figura1.png)
+![Figura 1 – Circuito com resistores.](imagens/figura1-circuito-resistores.png)
 
 *Figura 1 – Circuito com resistores.*
 
@@ -42,7 +42,7 @@ Implemente um circuito abaixo e responda as questões que seguem.
 
 A Figura 2 apresenta um circuito RC com uma malha para carregar e descarregar o capacitor. Quando a chave encontra-se na posição A, o capacitor é carregado. Quando na posição B, o capacitor é descarregado.
 
-![Figura 2 - Circuito RC.](imagens/figura2.png)
+![Figura 2 - Circuito RC.](imagens/figura2-circuito-rc.png)
 
 *Figura 2 - Circuito RC.*
 
