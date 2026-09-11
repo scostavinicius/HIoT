@@ -1,7 +1,5 @@
 # EXPERIMENTO 01: Polarização direta versus Polarização reversa de Diodos.
 
-> **OBSERVAÇÃO:** Nos experimentos, todos os diodos devem ter o modelo "default" e os leds devem ser vermelhos e com o modelo "default-led".
-
 ![Figura 1 - Circuito de polarização direta.](imagens/figura1-polarizacao-direta.png)
 
 *Figura 1 - Circuito de polarização direta.*
