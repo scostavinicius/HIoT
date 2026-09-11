@@ -18,11 +18,7 @@
 
     Considerando $V_{r}$ como a tensão no resistor, temos que:
 
-    $$
-    V_{r} = V_{fonte} - V_{diodo} - V_{LED}
-    = 5 - 0{,}7 - 1{,}7
-    = 2{,}6 
-    $$
+    $$ V_{r} = V_{fonte} - V_{diodo} - V_{LED} = 5 - 0{,}7 - 1{,}7 = 2{,}6 $$
 
 ![Figura 2 - Circuito de polarização reversa.](imagens/figura2-polarizacao-reversa.png)
 
