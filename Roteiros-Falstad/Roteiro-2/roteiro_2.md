@@ -70,12 +70,20 @@
 
 1. Monte o circuito da Figura 4. Envie o arquivo da simulação como um link Falstad (*Circuit Simulator Falstad → Arquivo → Exportar como Link*).
 
+    [Circuito 4](https://www.falstad.com/circuit/circuitjs.html?ctz=DwYwlgTgBAZgvAIgIwKgFwM6IAwDpsEECsqYIiSRAnLkdUgBwDM2ALFVW1U6iAEaIi2VAAcBCVjygA3CINQBbTIICmAWiQoAfACgoUYABMoAD0SsGUJg1ZQqANis3U8BMKgKA9okMqYAQwBXABs0BAB6XX1gAHdTRAcnWyR7bCSXHAiogzizCUtrW0TCjLcsvQNjPIsoVnsixzrWUvcvHz8g0PLo3ITG+qgUtKaW7pz4-NqBxJHYTMiK2Im1ACYV2yZ7SzUazYZRhZ7lzRXagigdy1YCA+ylvMvamtX1p-25ssPxh7XbVmfflYtrdFr1kKkkoMIbNXMIvvcKI5CrUCs4PnC7gBlCYpSGPEro1DBMCZdAAC0QKzGCIQjwsaQ0SFO9JBRweJxRDI513csOpYNxTRRU2ahPhAHNjkzORcOQB2Fa8+ZYnH9Wx0+qjKByNz4bAoKDE0loCkIKnwgAyAFEACKqtLUU5DKD2dZatoIXwBEJoNTBFSGXg6g0gcWk-ikhR8ci6-X8+1QR1Qh2pVkGaB5Z1EaVZ1OE7UUQjxzMQ7NO6GasV3MEaFaWewK5MuhVpmnOhvltKu0V8+E1wEd2V15tUquLaTLAeNl5-CylFKoGJ8jz+EzSeQLYDhcAQXRAA)
+
 2. A alteração das chaves SW1 e SW2 para a posição 2 (sinal de tensão 5 V) representa o nível lógico 1. O nível lógico 0 é representado pela posição 1 (sinal de 0 V) das chaves. Observando o comportamento da carga (o LED) no circuito da Figura 4, qual porta lógica o circuito representa?
+
+    **Resposta:** Representa a porta lógica OR, já que basta um dos switchs estar no nível lógico 1 para  o led ligar.
 
 ![Figura 5 - Simulação de porta lógica com Diodos.](imagens/figura5-porta-logica-2.png)
 
 *Figura 5 - Simulação de porta lógica com Diodos.*
 
-3. Monte o circuito da Figura 5 e analise o comportamento. Envie o arquivo da simulação como um link Falstad (*Circuit Simulator Falstad → Arquivo → Exportar como Link*).
+1. Monte o circuito da Figura 5 e analise o comportamento. Envie o arquivo da simulação como um link Falstad (*Circuit Simulator Falstad → Arquivo → Exportar como Link*).
 
-4. A alteração das chaves SW1 e SW2 para a posição 2 representa o nível lógico 1. O nível lógico 0 é representado pela posição 1 das chaves. Observando o comportamento da carga (o LED) no circuito da Figura 4, qual porta lógica o circuito representa?
+    [Circuito 5](https://www.falstad.com/circuit/circuitjs.html?ctz=DwYwlgTgBAZgvAIgIwKgFwM6IAwDpsEECsqYIiSRAnLkdUgBwDM2ALFVW1U6iAEaIi2VAAcBCVjygA3CINQBbTIICmAWiQoAfACgoUYAHcoAD0EA2bFCJIATNar2bt1PATCA9Lv3AAyqcRzBgZrOygAdiInO1ccVDl3fGwUKAAbMDj0AAtEFy89A2MzZAIQ9nMIqKhy2PcEfJ8iilKocyIKpBaohlrPbwN-YvLqqgr2qxrYTIS8AhT0zLQchDz+owCV4JGKpirJtz6C9eLbLbaK07LR3vq16Q3O7BDzqEvW9tqkc1RDA8UAQxM0nkUEgOCSKAahQ2rC+23h+ziUOA0GKu3sw1hFURdSgCUeh0aGxezlaW2cN2RABMNtRovYSTEpriFAB7RBUlQwf4AV1SaFuRyaJSe1lOUEeV2+zMJ0OKkSc4qoYW6lLWwqorFYYpCkp1aqOABkAKIAEQ2ysVIU12tVMsU7IQnO5fLQalSKipvHxvAA5pl+JkFHxyIlkoKicVxtUGFZwmwY8J7cjhfHtaxYxEmNjrsndMAPOAILogA)
+
+2. A alteração das chaves SW1 e SW2 para a posição 2 representa o nível lógico 1. O nível lógico 0 é representado pela posição 1 das chaves. Observando o comportamento da carga (o LED) no circuito da Figura 4, qual porta lógica o circuito representa?
+
+    **Resposta:** Representa a porta lógica AND, já que se faz necessário que ambos switchs estejam no nível lógico 1 para que o LED possa ser aceso.
