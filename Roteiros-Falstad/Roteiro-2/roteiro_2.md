@@ -26,6 +26,8 @@
     = 2{,}6 
     $$
 
+    Na simulação, foi medido a tensão de $2{,}835V$. O valor calculado é ligeiramente diferente do simulado. Isso acontece provavelmente porque o diodo e o LED do simulador devem operar em um diferente nível de tensão. 
+
 ![Figura 2 - Circuito de polarização reversa.](imagens/figura2-polarizacao-reversa.png)
 
 *Figura 2 - Circuito de polarização reversa.*
@@ -34,17 +36,21 @@
 
     [Circuito 2](https://www.falstad.com/circuit/circuitjs.html?ctz=DwYwlgTgBAZgvAIgIwKgFwM6IAwDpsEECsqYIiAzABwBMuA7AGw1G1IAsFAnF9o+6hAAjREWyoADiISdUANwijUAW0yiApgFokKAHwAoKFGByoAD0QtGUdlShX7NAbERJGqAO7wE4qMoCGZnJKUJA4+NgoAPQGRsAe5pZE1rZQFDTYNlSo3uIxhsYJFjLpWTalVL65CPlxRYicNI7s9snNOTg1sYWJCBSMdqmNWR0+XQXxvcNINIOlSEyjed3A0MXDleVNM9kuY1CKyITjdVPzXE3DNE5LJ8YAMgCiACJn20xbUEgXt34A9ogACbqGD+ACuABs0JoIepAYJDigoCAAOadZHSXzKITkHz4aIrQG9dKZVL9Qa7ar-IEg8FQ8bAKLgCAGIA)
 
-    **Resposta:**
+    **Resposta:** O LED fica desligado
 
 2. De acordo com os comportamentos observados nos itens 1 e 4, qual é a diferença entre os dois circuitos de polarização?
 
+    **Resposta:** O circuito da figura 1 permanece sempre ligado pois o diodo permite a pessagem da corrente. Na figura 2, por causa do diodo em polarização invertida, a corrente não consegue passar.
+
 3. Refaça o circuito sem o diodo e observe o comportamento do LED sem o diodo. Houve alguma diferença? Qual o motivo?
+
+    **Resposta:** O LED continua desligado. Isso ocorre porque o LED também é um diodo, então ele não permite a passagem de corrente.
 
 ![Figura 3 - Circuito de polarização direta com fonte de tensão CA.](imagens/figura3-polarizacao-direta-ca.png)
 
 *Figura 3 - Circuito de polarização direta com fonte de tensão CA.*
 
-7. Monte o circuito da Figura 3. Configure o gerador de sinais para gerar uma função senoidal de 5V de pico e frequência de 1Hz. Responda os seguintes itens:
+1. Monte o circuito da Figura 3. Configure o gerador de sinais para gerar uma função senoidal de 5V de pico e frequência de 1Hz. Responda os seguintes itens:
 
     [Circuito 3](https://www.falstad.com/circuit/circuitjs.html?ctz=DwYwlgTgBAZgvAIgIwKgFwM6IAwDpsEECsqYIiAzABwBMuA7AGw1G1IAsFAnF9o+6hAAjREWyoADiISdUANwijUAW0yiApgFokKAHwAoKFGByoAD1E0qUGjXZQiVqOyqp4yRqgDu7lLEXIKgCGZnJKUJA4+NgoAPQGRsBe5pbWLg5cNM6usDgI8YbGyRYI9Nj26WX2VOK5COIFicWIVTZ2Dk62AnUNCUUpCPzY2VCtLm55jf0lrUhOs0wT9fl9wNAz5VA1o5tzOe61AUiEK4VJA7OZO-ZdS71nADIAogAiF7tM11BImXcqAPaIAAm6hgQQArgAbNCaSHqIGCI6CADmeSgwjRyiE5Hq+DiqyBAyIV3SQ2yfygykBCBBYKhaFOwFi4AgBiAA)
 
