@@ -56,7 +56,11 @@
 
    a. O LED acende em algum momento? Com que frequência acontece?
 
+   **Resposta:** O LED acende e depois apaga. Isso acontece uma vez a cada segundo. 
+
    b. O que acontece com a tensão no resistor 1k quando o sinal senoidal permanece no eixo da tensão negativa? Qual o motivo deste comportamento?
+
+   **Resposta:** A tensão abaixa para valores extremamente pequenos. Isso ocorre porque quando o eixo de tensão está negativo, a corrente percorre o circuito no fluxo inverso e os diodos não permitem que a corrente flua nesse sentido.
 
 # EXPERIMENTO 02: Portas lógicas com Diodos.
 
