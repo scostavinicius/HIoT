@@ -12,19 +12,17 @@ Implemente um circuito abaixo e responda as questões que seguem.
 
 2. Calcule a tensão e a corrente que passa pelo resistor de 1k.
 
-   **Resposta:** O resistor de $1\,\text{k}\Omega$ está em paralelo com a fonte,
-   logo a tensão sobre ele é a própria tensão da fonte:
+    **Resposta:** O resistor de $1\,\text{k}\Omega$ está em paralelo com a fonte, logo a tensão sobre ele é a própria tensão da fonte:
 
-   $$
-   V_{1k} = V_{fonte} = 5\ \text{V}
-   $$
+    ```math
+    V_{1k} = V_{fonte} = 5\ \text{V}
+    ```
 
-   Pela Lei de Ohm, $I = \dfrac{V}{R}$:
+    Pela Lei de Ohm, $I = \dfrac{V}{R}$:
 
-   $$
-   I_{1k} = \frac{V_{1k}}{R_{1k}} = \frac{5\ \text{V}}{1000\ \Omega}
-   = 0{,}005\ \text{A} = 5\ \text{mA}
-   $$
+    ```math
+    I_{1k} = \frac{V_{1k}}{R_{1k}} = \frac{5\ \text{V}}{1000\ \Omega} = 0{,}005\ \text{A} = 5\ \text{mA}
+    ```
 
 3. Com o auxílio de um multímetro na função de amperímetro, meça a corrente que passa pelo resistor de 1k. **LEMBRE-SE** que o amperímetro deve ser ligado em série com o ramo do circuito.
 
@@ -52,29 +50,27 @@ A Figura 2 apresenta um circuito RC com uma malha para carregar e descarregar o 
 
 2. Calcule a constante de tempo do circuito RC.
 
-   **Resposta:** A constante de tempo de um circuito RC é dada por $\tau = R \cdot C$.
+    **Resposta:** A constante de tempo de um circuito RC é dada por $\tau = R \cdot C$.
 
-   Dado que $R = 220\,\text{k}\Omega$ e $C = 22\,\mu\text{F}$:
+    Dado que $R = 220\,\text{k}\Omega$ e $C = 22\,\mu\text{F}$:
 
-   $$
-   \tau = (22 \times 10^{4}\ \Omega)(22 \times 10^{-6}\ \text{F})
-   = 484 \times 10^{-2}
-   = 4{,}84\ \text{s}
-   $$
+    ```math
+    \tau = (22 \times 10^{4}\ \Omega)(22 \times 10^{-6}\ \text{F}) = 484 \times 10^{-2} = 4{,}84\ \text{s}
+    ```
 
 3. Utilizando a simulação, faça a permuta da chave para a posição A e meça o tempo que levou para a tensão sobre o capacitor sair de 0V e alcançar 1,9 V.
 
-    **Resposta:** No simulador o tempo levado foi de $4,853\ \text{s}$
+    **Resposta:** No simulador o tempo levado foi de $4{,}853\ \text{s}$
 
 4. Discuta os seguintes questionamentos:
 
-   a. O tempo medido foi similar à constante de tempo do circuito RC? Sabe por quê?
-        
+    a. O tempo medido foi similar à constante de tempo do circuito RC? Sabe por quê?
+
     **Resposta:** O tempo medido foi similar. Isso acontece porque o simulador utiliza um algoritmo que corresponde as fórmulas existentes.
 
-   b. Se a resistência do circuito da Figura 2 for alterada para um valor de 100k, o tempo para a tensão do capacitor chegar em 1,9V é maior ou menor que o tempo medido com a resistência 220k? Justifique.
+    b. Se a resistência do circuito da Figura 2 for alterada para um valor de 100k, o tempo para a tensão do capacitor chegar em 1,9V é maior ou menor que o tempo medido com a resistência 220k? Justifique.
 
-    **Resposta:** Diminui, pois como a constante de tempo é medido como um produto da resistência pela capacitância, temos que são grandezas diretamente proporcionais. 
+    **Resposta:** Diminui, pois como a constante de tempo é medido como um produto da resistência pela capacitância, temos que são grandezas diretamente proporcionais.
 
 5. Retorne a chave para a posição B e observe o comportamento da tensão do capacitor. Explique o que acontece.
 

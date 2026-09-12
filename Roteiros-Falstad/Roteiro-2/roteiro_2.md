@@ -20,11 +20,9 @@
 
     Considerando $V_{r}$ como a tensão no resistor, temos que:
 
-    $$
-    V_{r} = V_{fonte} - V_{diodo} - V_{LED}
-    = 5 - 0{,}7 - 1{,}7
-    = 2{,}6 
-    $$
+    ```math
+        V_{r} = V_{fonte} - V_{diodo} - V_{LED} = 5 - 0{,}7 - 1{,}7 = 2{,}6
+    ```
 
     Na simulação, foi medido a tensão de $2{,}835V$. O valor calculado é ligeiramente diferente do simulado. Isso acontece provavelmente porque o diodo e o LED do simulador devem operar em um diferente nível de tensão. 
 
