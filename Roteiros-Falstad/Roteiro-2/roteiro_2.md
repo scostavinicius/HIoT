@@ -8,6 +8,8 @@
 
     [Circuito 1](https://www.falstad.com/circuit/circuitjs.html?ctz=DwYwlgTgBAZgvAIgIwKgFwM6IAwDpsEECsqYIiAzABwBMuA7AGw1G1IAsFAnF9o+6hAAjREWyoADiISdUANwijUAW0yiApgFokKAHwAoKFGAATKAA9E7KlGtQujW1VTwE4qMoD2iE+pgBDAFcAGzQEAHoDI2AAGQBRABELRCRGbCgkJgy0jK4aFxwVbwRfAJC0TWD1E0FFZEEAc0KoYWblIXI3fBRIw2MAd2TkHKQ87PSaGgFYQt7o6Eth9Kp01NWaZxm3VDqkQgiogaG1jI3xjKYC7bmjxYcnc+sr8RvgQcWTyfYobUcv54OfTexxydhOKwBr3eiF+DzsTy2L0OwDkQ1hXx+qScV1SqH6rncyn85jkSigkBw+GwPQMwHC4AgBiAA)
 
+    **Resposta:** O LED fica constantemente ligado
+
 2. Meça a tensão em cima do resistor de 1k. Qual o valor encontrado? Explique o porquê da tensão ser menor que 5V.
 
     **Resposta:** Os diodos consomem uma parcela fixa de tensão, o que diminue a tensão restante para o resistor.
@@ -18,7 +20,11 @@
 
     Considerando $V_{r}$ como a tensão no resistor, temos que:
 
-    $$ V_{r} = V_{fonte} - V_{diodo} - V_{LED} = 5 - 0{,}7 - 1{,}7 = 2{,}6 $$
+    $$
+    V_{r} = V_{fonte} - V_{diodo} - V_{LED}
+    = 5 - 0{,}7 - 1{,}7
+    = 2{,}6 
+    $$
 
 ![Figura 2 - Circuito de polarização reversa.](imagens/figura2-polarizacao-reversa.png)
 
@@ -27,6 +33,8 @@
 1. Monte o circuito da Figura 2, ligue a fonte de tensão e observe o comportamento do LED. Envie o arquivo da simulação como um link Falstad (*Circuit Simulator Falstad → Arquivo → Exportar como Link*). Qual o comportamento do LED?
 
     [Circuito 2](https://www.falstad.com/circuit/circuitjs.html?ctz=DwYwlgTgBAZgvAIgIwKgFwM6IAwDpsEECsqYIiAzABwBMuA7AGw1G1IAsFAnF9o+6hAAjREWyoADiISdUANwijUAW0yiApgFokKAHwAoKFGByoAD0QtGUdlShX7NAbERJGqAO7wE4qMoCGZnJKUJA4+NgoAPQGRsAe5pZE1rZQFDTYNlSo3uIxhsYJFjLpWTalVL65CPlxRYicNI7s9snNOTg1sYWJCBSMdqmNWR0+XQXxvcNINIOlSEyjed3A0MXDleVNM9kuY1CKyITjdVPzXE3DNE5LJ8YAMgCiACJn20xbUEgXt34A9ogACbqGD+ACuABs0JoIepAYJDigoCAAOadZHSXzKITkHz4aIrQG9dKZVL9Qa7ar-IEg8FQ8bAKLgCAGIA)
+
+    **Resposta:**
 
 2. De acordo com os comportamentos observados nos itens 1 e 4, qual é a diferença entre os dois circuitos de polarização?
 
